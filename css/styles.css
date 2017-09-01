@@ -53,6 +53,7 @@ a:active {
 }
 
 .col-md-5{
+  border-left: 2px  solid black;
   margin: 40px;
   background-color: rgba(255,255,255,0.15);
 }
