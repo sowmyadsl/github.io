@@ -3,6 +3,10 @@
   border:1px dashed #000;
 }*/
 
+body {
+  position: relative;
+}
+
 .navbar-brand{
   font-size: 30px;
   padding-left: 0.5%;
@@ -44,27 +48,16 @@ a:active {
     text-decoration: underline;
 }
 
-#img {
-  max-width: 100%;
-  position: fixed;
-  opacity: 0.7;
-  top: 0;
-  left: 0;
-  z-index: -1;
+.about {
+  padding: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgba(0,0,0,0.8);
+}
 
-}
-.row{
-  margin:5%;
-  height: 300px;
-  text-align: center;
-  vertical-align: center;
-  display: flex;
-}
 #profile-pic{
-  margin-left: 10%;
-  /*position: relative;*/
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   overflow: hidden;
   border-radius: 50%;
   float:left;
@@ -77,13 +70,12 @@ a:active {
 
 .hero-page{
   font-family: monospace;
-  text-align: left;
-  text-decoration-color: black;
+  color: white;
   margin-left: 5%;
-  height: 200px;
+  text-align: justify;
+  text-decoration-color: black;
   vertical-align: inherit;
   width: 60%;
-  /*background-color: rgba(255,255,255);*/
 }
 
 .hero-page h1 {
@@ -91,19 +83,17 @@ a:active {
   color: #4185d7;
 }
 .hero-page h3{
-  font-size: 24px;
-  color: grey;
+  font-size: 22px;
   line-height: 150%;
 }
 .hero-page h5{
   font-size: 18px;
-  color: black;
   line-height: 150%;
 
 }
-.umbrella {
+/*.umbrella {
   color: grey;
-}
+}*/
 
 .ruby {
   color: #B02B2C;
@@ -155,32 +145,58 @@ a:active {
     right: 17%;
 }
 
-.col-md-6{
-border: 2px solid black;
-}
-
-.tech-logo{
-  width: 80px;
-  display: inline-block;
-}
-.d-flex{
+#skills{
   background-color: rgba(0,0,0,0.8);
-  padding-top: 2%;
+  padding: 0;
+  margin: 0;
   color: white;
   font-family: monospace;
 }
-h3{
+
+.skills h3{
+  font-family: monospace;
+  text-align: center;
+  margin: 2.5%;
+}
+
+.projects h3{
+  padding-top: 3%;
   font-family: monospace;
   text-align: center;
 }
-ul {
+
+.d-flex ul {
   list-style: none;
   padding: 0;
   font-size: 14px;
 }
-ul h4{
+.d-flex ul h4{
   font-size: 18px;
 }
 .p-2{
-  margin-left: 2%;
+  margin:0%;
+}
+
+.d-flex h4{
+  text-align: center;
+}
+#projects {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 2%;
+  align-items: center;
+  background-color: rgba(0,0,0,0.8);
+}
+.screenshot{
+  /*border: 1px solid rgba(0,0,0,0);*/
+  float: left;
+  width:  500px;
+  height: auto;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+  box-shadow: 0 3px 6px rgba(255,255,255,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.screenshot:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.75), 0 10px 10px rgba(0,0,0,0.78);
 }
