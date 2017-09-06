@@ -7,11 +7,14 @@ body {
   z-index:0;
   position: relative;
 }
-.navbar-brand{
-  font-size: 30px;
-  padding-left: 0.5%;
-  padding-right: 0.5%;
-  border: 2px solid #CA9664;
+
+@media (min-width: 989px) {
+  .navbar-brand{
+    font-size: 30px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    border: 2px solid #CA9664;
+  }
 }
 
 #navbar-container{
@@ -171,7 +174,7 @@ a:active {
 .skills h3{
   font-family: monospace;
   text-align: center;
-  margin: 2.5%;
+  margin: 4%;
 }
 
 .d-flex ul {
