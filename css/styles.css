@@ -1,21 +1,10 @@
-/**:not(body):not(html) {
-  box-sizing:border-box;
-  border:1px dashed #000;
-}*/
 
 body {
   z-index:0;
   position: relative;
 }
 
-@media (min-width: 989px) {
-  .navbar-brand{
-    font-size: 30px;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
-    border: 2px solid #CA9664;
-  }
-}
+
 
 #navbar-container{
   font-family: monospace;
@@ -101,35 +90,6 @@ a:active {
   line-height: 150%;
 }
 
-.ruby {
-  color: #B02B2C;
-  font-size: 25px;
-}
-
-.html {
-  color: #E04423;
-  font-size: 25px;
-}
-
-.css {
-  color: #4185d7;
-  font-size: 25px;
-}
-
-.react {
-  color: #31B8D2;
-  font-size: 25px;
-}
-
-.angular {
-  color: red;
-  font-size: 25px;
-}
-
-.js {
-  color: #FF7F00;
-  font-size: 25px;
-}
 
 .row about{
   background-color: rgba(20,26,32,1);
@@ -147,20 +107,6 @@ a:active {
   border: 0pt none;
 }
 
-.feature-tile2 {
-    background: black;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    color: rgb(20,26,32);
-    font-size: 13px;
-    font-weight: 600;
-    padding: 2px 10px;
-    position: absolute;
-    top: 46px;
-    right: 17%;
-}
 
 #skills {
   background-color: rgba(20,26,32,1);
@@ -254,4 +200,15 @@ footer{
   font-size: 18px;
   font-weight: 500;
   padding-bottom: 2.5%;
+}
+
+
+
+@media (min-width: 992px) {
+  .navbar-brand{
+    font-size: 30px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    border: 2px solid #CA9664;
+  }
 }
