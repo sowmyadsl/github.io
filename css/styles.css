@@ -4,8 +4,6 @@ body {
   position: relative;
 }
 
-
-
 #navbar-container{
   font-family: monospace;
   background-color: white;
@@ -99,7 +97,7 @@ a:active {
     width: 300px;
     display: block;
     margin: 0 auto;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 .footer-social-icons img{
   width: 45px;
@@ -120,7 +118,7 @@ a:active {
 .skills h3{
   font-family: monospace;
   text-align: center;
-  margin: 4%;
+  margin: 2.5%;
 }
 
 .d-flex ul {
