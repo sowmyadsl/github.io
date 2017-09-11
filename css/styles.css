@@ -76,7 +76,7 @@ a:active {
 }
 
 .hero-page h1 {
-  font-size: 32px;
+  font-size: 35px;
   color: #0EBFE9;
 }
 .hero-page h3{
@@ -88,6 +88,40 @@ a:active {
   line-height: 150%;
 }
 
+.umbrella {
+ color: grey;
+}
+
+.ruby {
+ color: #B02B2C;
+ font-size: 25px;
+}
+
+.html {
+ color: #E04423;
+ font-size: 25px;
+}
+
+.css {
+ color: #0020BB;
+ font-size: 25px;
+}
+
+
+.react {
+ color: #31B8D2;
+ font-size: 25px;
+}
+
+.angular {
+ color: red;
+ font-size: 25px;
+}
+
+.js {
+ color: #FF7F00;
+ font-size: 25px;
+}
 
 .row about{
   background-color: rgba(20,26,32,1);
@@ -200,7 +234,9 @@ footer{
   padding-bottom: 2.5%;
 }
 
-
+.type-it{
+  font-size: 34px;
+}
 
 @media (min-width: 992px) {
   .navbar-brand{
