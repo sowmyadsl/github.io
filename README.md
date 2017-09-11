@@ -4,7 +4,7 @@ This is a portfolio site that shows skills, experience and work of Sowmya Dinava
 
 ## By Sowmya Dinavahi
 
-## Live Link:  **https//sowmyadsl.github.io**
+## Live Link:  **https://sowmyadsl.github.io**
 
 ## Known Bugs
 
